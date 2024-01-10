@@ -1,0 +1,28 @@
+
+html{
+    /* change background color */
+    background-color: black; 
+    
+    /* master font color */
+    color: white;
+
+}
+
+
+#navbar{
+    height: 50px;
+
+}
+
+#flex{
+    /* this styling of flex with css arrays divisions */
+    display: flex;
+
+}
+
+.container{
+    border-style: dotted;
+    border-color: white;
+    border-width: 1px;
+
+}
