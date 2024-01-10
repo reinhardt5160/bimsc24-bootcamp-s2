@@ -5,24 +5,45 @@ html{
     
     /* master font color */
     color: white;
-
 }
 
+body{
+    margin: 0;
+}
+
+div{
+    /* put the borders on the inside of container */
+    box-sizing: border-box;
+}
 
 #navbar{
     height: 50px;
-
+    font-size: 40px;
+    font-style: italic;
 }
 
 #flex{
-    /* this styling of flex with css arrays divisions */
+    /* this display function of flex with css arrays divisions */
     display: flex;
+    height: calc(100vh - 52px); 
+}
 
+#sidebar{
+    width: 30%
+}
+
+#main{
+    width: 70%;
+    background-color: lightpink;
 }
 
 .container{
     border-style: dotted;
-    border-color: white;
+    border-color: teal;
     border-width: 1px;
-
+    background-color: darkgray;
 }
+
+/* select by tag 
+select by #id
+select by.class */
