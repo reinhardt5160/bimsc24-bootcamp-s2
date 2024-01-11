@@ -51,7 +51,8 @@ div{
 }
 
 .fit-picture{
-    width: 600px;
+    /* width: 600px; */
+    width: 100%;
 }
 
 .container{
